@@ -7,3 +7,5 @@ C Programming Language Exercise Solutions
     Book written by Andre Backes, professor at the Federal University of Uberlandia
     
 02) w3resource: https://www.w3resource.com/c-programming-exercises/
+
+03) codezclub: https://www.codezclub.com/c-solved-programs-examples-solutions/c-pointer-solved-programs/
