@@ -1,28 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-//int f01(int *, int *);
-
-int main()
+void main()
 {
-    int a, b;
+ int fno,sno;
+ int *ptr1 = NULL;
+ int *ptr2 = NULL;
+ 
+   printf("\n\n Pointer : Find the maximum number between two numbers :\n"); 
+   printf("------------------------------------------------------------\n");   
+ 
+   printf(" Input the first number : ");
+   scanf("%d", &fno);
+   printf(" Input the second  number : ");
+   scanf("%d", &sno); 
 
-    printf("Enter a and b (integer): ");
-    scanf("%d%d", &a, &b);
+  ptr1 = &fno;
+  ptr2 = &sno;
 
-    //f01(&a, &b);
+ if(*ptr1>*ptr2)
+ {
+  printf("\n\n %d is the maximum number.\n\n",*ptr1);
+ }
+ else
+ {
+  printf("\n\n %d is the maximum number.\n\n",*ptr2);
+ }
 
-    return 0;
 }
-
-/*int f01(int *x, int *y)
-{
-    if (*x > *y)
-    {
-        printf("Higher number: %d", *x);
-    }
-    else
-    {
-        printf("Lowest number: %d", *y);
-    }
-}*/
