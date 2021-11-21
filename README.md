@@ -9,3 +9,5 @@ C Programming Language Exercise Solutions
 02) w3resource: https://www.w3resource.com/c-programming-exercises/
 
 03) codezclub: https://www.codezclub.com/c-solved-programs-examples-solutions/c-pointer-solved-programs/
+
+04) codeforwin: https://codeforwin.org/2017/12/pointer-programming-exercises-and-solutions-in-c.html
